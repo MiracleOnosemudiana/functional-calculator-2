@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="calcBody">
+        <form>
+            <input type="text" class="screen" disabled placeholder="0">
+        </form>
+        <div class="buttons">
+            <button type="button" class="btn diffColorBtn leftSide clearAll">CE</button>
+            <button type="button" class="btn diffColorBtn clearAll">C</button>
+            <button type="button" class="btn diffColorBtn back" data-num="">Del</button>
+            <button type="button" class="btn diffColorBtn action-btn" data-num="/">/</button>
+            <br>
+            <button type="button" class="btn leftSide" data-num="7">7</button>
+            <button type="button" class="btn" data-num="8">8</button>
+            <button type="button" class="btn" data-num="9">9</button>
+            <button type="button" class="btn diffColorBtn action-btn" data-num="*">*</button>
+            <br>
+            <button type="button" class="btn leftSide" data-num="4">4</button>
+            <button type="button" class="btn" data-num="5">5</button>
+            <button type="button" class="btn" data-num="6">6</button>
+            <button type="button" class="btn diffColorBtn action-btn" data-num="-">-</button>
+            <br>
+            <button type="button" class="btn leftSide" data-num="3">3</button>
+            <button type="button" class="btn" data-num="2">2</button>
+            <button type="button" class="btn" data-num="1">1</button>
+            <button type="button" class="btn diffColorBtn action-btn" data-num="+">+</button>
+            <br>
+            <button type="button" class="btn leftSide" data-num="0">0</button>
+            <button type="button" class="btn" data-num="00">00</button>
+            <button type="button" class="btn" data-num=".">.</button>
+            <button type="button" class="btn equalsToBtn" data-num="">=</button>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+
+</html>

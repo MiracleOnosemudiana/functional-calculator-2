@@ -1,0 +1,85 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calcBody {
+    padding: 15px 5px 4px;
+    width: 19.5rem;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 1rem auto;
+    border: rgba(0, 0, 0, 0.87) ;
+    background-color: rgba(0, 0, 0, 0.87);
+}z
+
+.button {
+    border: 1px solid rgb(73, 73, 73);
+    background-color: rgb(73, 73, 73);
+    color: white;
+    min-width: 23.5%;
+    min-height: 3rem;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.btn {
+    border: 1px solid rgb(73, 73, 73);
+    background-color: rgb(73, 73, 73);
+    color: white;
+    min-width: 23.5%;
+    min-height: 3rem;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.btn:hover{
+    border: 1px solid rgb(54, 54, 54);
+    background-color: rgb(54, 54, 54);
+}
+.button:hover{
+    border: 1px solid rgb(54, 54, 54);
+    background-color: rgb(54, 54, 54);
+}
+
+.screen {
+    border: rgba(0, 0, 0, 0.87) ;
+    background-color: rgba(27, 27, 27, 0.87);
+    color: white;
+    font-size: x-large;
+    text-align: end;
+    border-radius: 5px;
+    width: 100%;
+    height: 6.5rem;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.screen:focus-visible{
+    outline: none;
+}
+.screen::placeholder{
+    font-size: larger;
+    text-align: end;
+}
+.leftSide{
+    margin-left: 1px;
+}
+.diffColorBtn{
+    border: 1px solid rgb(54, 54, 54);
+    background-color: rgb(54, 54, 54);
+}
+.diffColorBtn:hover{
+    border: 1px solid rgb(73, 73, 73);
+    background-color: rgb(73, 73, 73);
+}
+.equalsToBtn{
+    color: black;
+    border: 1px solid rgb(78, 211, 235);
+    background-color: rgb(78, 211, 235);
+}
+.equalsToBtn:hover{
+    border: 1px solid rgb(58, 156, 173);
+    background-color: rgb(58, 156, 173);
+}
